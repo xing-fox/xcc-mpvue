@@ -3,7 +3,7 @@
 
 <template>
   <div class="page">
-    <div @click="routeTest">路由测试</div>
+      123
   </div>
 </template>
 
@@ -13,11 +13,7 @@ export default {
     return {}
   },
   components: {},
-  methods: {
-    routeTest () {
-      this.$router.push('/pages/index/main')
-    }
-  },
+  methods: {},
   onLoad (options) {
     console.log(options)
   },

@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import App from './App'
+import MpvueRouterPatch from 'mpvue-router-patch'
 import http from '@/utils/request'
 
 require('./weui.css')
 require('./reset.css')
+Vue.use(MpvueRouterPatch)
 
 Vue.prototype.$http = http
 Vue.config.productionTip = false
