@@ -1,0 +1,32 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wx24b670bd24d3e652",
+	"projectname": "%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}
